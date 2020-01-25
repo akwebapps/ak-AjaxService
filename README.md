@@ -55,7 +55,7 @@ $.akAjaxService("landingPreview.php",{"whichView":"dirList"},function(landingJSO
 },{primaryKey:"whichView"});
 ```
 ### Server Side
-My php file returns a string in JSON format:
+Excerpt from my php file which returns the data as a string in JSON format:
 ```php
 if ($whichView=="dirList") { 
 	$path = "../cities";
