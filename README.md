@@ -13,12 +13,12 @@ $.akAjaxService(urlString,sendData,callback,options);
 ## Options
 ```json
 {
-	type: "POST",
-	async: true,
-	cache: false,
-	consoleLogs: true,
-	primaryKey: "w",
-	logPrefix: "akAjax:"
+	"type": "POST",
+	"async": true,
+	"cache": false,
+	"consoleLogs": true,
+	"primaryKey": "w",
+	"logPrefix": "akAjax:"
 }
 ```
 -	`consoleLogs` (boolean): controls if there is detailed logging for each call. Turn this off for PROD environments.
